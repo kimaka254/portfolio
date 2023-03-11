@@ -1,0 +1,126 @@
+/* Hero Section Styles */
+.hero-section {
+	background: linear-gradient(to bottom, #8A2BE2 0%, #4B0082 100%);
+	color: #fff;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-text {
+	text-align: center;
+}
+
+.hero-text h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+}
+
+.hero-text p {
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.btn1 {
+	display: inline-block;
+	padding: 15px 30px;
+	background-color: #fff;
+	color: #8A2BE2;
+	border: none;
+	border-radius: 50px;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	transition: 0.5s;
+}
+
+.btn1:hover {
+	background-color: #8A2BE2;
+	color: #fff;
+    text-decoration: none;
+}
+.hover-card:hover {
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+	transition: all 0.3s ease-in-out;
+}
+ul{
+    list-style-type: none;
+    } 
+ul li span#list-style{
+      color: blue;
+      font-size: 20px;
+      font-weight: 100;
+    
+    }
+
+.prof{
+    width: 350px;
+    height: 350px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    
+}
+h2{
+
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    position: relative;
+  }
+.cv{
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.cv:hover {
+	background-color: #8A2BE2;
+	color: #fff;
+    text-decoration: none;
+}
+
+.footer {
+    background: #f7f8f9;
+    color: #45505b;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+.footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+.footer p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+  }
+.footer .social-links {
+    margin: 0 0 40px 0;
+  }
+.footer .social-links a {
+ padding-right: 5px;
+  }
+  
+.footer .copyright {
+    margin: 0 0 5px 0;
+  }
+.footer .credits {
+    font-size: 13px;
+  }
+  
+ 
