@@ -124,3 +124,15 @@ h2{
   }
   
  
+  .section-1, .section-2, .section-3,.section-4, .section-5, .section-6 {
+    opacity: 0;
+    transform: translateX(100%);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+
+  .section.is-active {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+  
+  
