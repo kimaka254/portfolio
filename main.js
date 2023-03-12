@@ -18,7 +18,7 @@ document.getElementById("year").innerHTML = year;
 
 const sections = document.querySelectorAll('.section');
 
-function debounce(func, wait = 20, immediate = true) {
+function debounce(func, wait = 5, immediate = true) {
   let timeout;
   return function() {
     const context = this, args = arguments;
