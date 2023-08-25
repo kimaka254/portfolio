@@ -1,3 +1,9 @@
+.navbar {
+  position: sticky;
+}
+section{
+  padding-top: 60px;
+}
 /* Hero Section Styles */
 .hero-section {
 	background: linear-gradient(to bottom, #8A2BE2 0%, #4B0082 100%);
@@ -123,7 +129,7 @@ h2{
     font-size: 13px;
   }
   
- 
+/*  
   .section-1, .section-2, .section-3,.section-4, .section-5, .section-6 {
     opacity: 0;
     transform: translateX(100%);
@@ -133,6 +139,6 @@ h2{
   .section.is-active {
     opacity: 1;
     transform: translateX(0%);
-  }
+  } */
   
   
