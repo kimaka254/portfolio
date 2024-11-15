@@ -5,6 +5,27 @@ body {
 section {
   padding: 80px 0px;
 }
+.navbar-brand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-icon {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #FFAFCC; 
+}
+
+.logo-name {
+  font-family: Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: #6c757d;
+  margin-top: -8px;
+}
 
 /* Hero Section */
 .hero-section {
