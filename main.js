@@ -1,9 +1,11 @@
 var typed = new Typed("#typed-text", {
     strings: [
-      "Elsy Marion Kimaka",
-      "I'm a frontend web developer",
-      "I'm a data Analyst.",
-      "I'm a Machine Learning Engineer.",
+      "BSc,Elsy Kimaka",
+      "BScIT ",
+      "Data Analyst / Scientist",
+      "AI Specialist",
+      " DB Manager",
+      " IT Support",
     ],
     typeSpeed: 50,
     backSpeed: 50,
